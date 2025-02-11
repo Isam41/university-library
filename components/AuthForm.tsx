@@ -19,7 +19,7 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { FIELD_NAMES, FIELD_TYPES } from "@/constant";
-import ImageUpload from "./ImageUpload";
+import FileUpload from "./FileUpload";
 import { toast } from "@/hooks/use-toast";
 
 interface Props<T extends FieldValues> {
@@ -86,7 +86,12 @@ const AuthForm  = <T extends FieldValues> ({
                  </FormLabel>
                  <FormControl>
                     {field.name === 'universityCard' ? (
-                      <ImageUpload onFileChange={field.onChange} /> 
+                      <FileUpload 
+                      type="image" 
+                      accept="image/*" 
+                      placeholder="Upload your ID" 
+                      folder="ids" variant="dark"
+                      onFileChange={field.onChange} /> 
                     ) : (
                     <Input required type= {FIELD_TYPES[field.name as keyof typeof FIELD_TYPES]} 
                     {...field} 
