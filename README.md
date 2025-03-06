@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Introduction
+Built with Next.js, TypeScript, and Postgres, the University Library Management System is a production-grade platform featuring a public-facing app and an admin interface. It offers advanced functionalities like seamless book borrowing with reminders and receipts, robust user management, automated workflows, and a modern, optimized tech stack for real-world scalability.
+
+## Tech Stack
+- Next.js.
+- PostgreSQL.
+- Upstash.
+- ImageKit.
+- TypeScript.
+- Resend.
+- Tailwind CSSNext.js.
+- PostgreSQL.
+- Upstash.
+- ImageKit.
+- TypeScript.
+- Resend.
+- Tailwind CSS.
+
 ## Getting Started
 
 First, run the development server:
