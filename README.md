@@ -10,12 +10,6 @@ Built with Next.js, TypeScript, and Postgres, the University Library Management 
 - ImageKit.
 - TypeScript.
 - Resend.
-- Tailwind CSSNext.js.
-- PostgreSQL.
-- Upstash.
-- ImageKit.
-- TypeScript.
-- Resend.
 - Tailwind CSS.
 
 ## Getting Started
